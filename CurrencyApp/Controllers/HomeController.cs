@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using CurrencyApp.Models;
 using Microsoft.Extensions.Caching.Memory;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace CurrencyApp.Controllers
 {
