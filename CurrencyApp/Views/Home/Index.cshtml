@@ -1,0 +1,11 @@
+﻿@model Dynamic
+@{
+    decimal priceRub = 1000;
+}
+<div>
+    Цена товара в рублях: @priceRub руб.
+    <div>
+        @($"Курс доллара: {Model.Value}, на момент: {Model.DateTime}")
+    </div>
+
+</div>
